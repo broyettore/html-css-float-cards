@@ -11,3 +11,74 @@ html {
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
 }
+
+/****************
+       MAIN CSS 
+ *************** */
+
+ main {
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ /*********************
+       MAIN CONTENT
+ ******************** */
+
+ section h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #e53170;
+    margin: 30px 0 40px 0;
+ }
+
+ section p {
+    font-size: 1.4rem;
+    font-weight: 500;
+ }
+
+  /*********************
+       PROFILE CARDS
+ ******************** */
+
+ .profiles-ctn {
+    background-color: #e53170;
+    width: 100%;
+    margin: 50px auto;
+ }
+
+ .profiles-ctn::after {
+    content: ' ';
+    display: block;
+    clear: both;
+ }
+
+ .profile-card {
+    height: 130px;
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+    background-color: black;
+    color: #fff;
+    float: left;
+ }
+
+   /*********************
+       CARDS CONTENT
+ ******************** */
+
+ .profile-pic {
+    height: 100%;
+    width: 30%;
+    background-color: yellow;
+    float: left;
+ }
+
+ .profile-description {
+    border: 2px solid red;
+    width: calc(70% - 20px);
+    margin-left: 20px;
+    text-align: left;
+    float: left;
+ }
+
